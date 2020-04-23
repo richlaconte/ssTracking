@@ -10,7 +10,7 @@ let pageData;
 let domain;
 let account;
 
-let testURL = "https://pages.services/blog.marketmarketing.com/trackingid/";
+//let testURL = "https://pages.services/blog.marketmarketing.com/trackingid/";
 
 app.get("/test/", (req, res0) => {
   console.log(req.query.url);
